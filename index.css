@@ -111,6 +111,11 @@ footer {
 
 .images-row img {
     width: 200px;
-    height: 145px;
+    height: 200px;
     margin: 80px; /* Espace entre les images */
+}
+img {
+    max-width: 200px;
+    height: 145px;
+    box-shadow: 5px 5px 5px #888888; /* Ajoute une ombre à l'image */
 }
