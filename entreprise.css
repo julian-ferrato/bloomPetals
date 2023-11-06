@@ -1,0 +1,85 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styles des sections */
+section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+/* Styles des titres */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Style des listes à puces */
+ul {
+    list-style-type: disc;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
+
+/* Style des liens */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Style des liens au survol */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style des images d'équipe */
+.team-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.team-photos img {
+    width: 400px;
+    height: auto;
+    margin-right: 15px; /* Espacement entre les images */
+}
+
+/* Ajoutez d'autres styles personnalisés si nécessaire */
+img {
+    max-width: 300px;
+    height: 145px;
+    box-shadow: 5px 5px 5px #888888; /* Ajoute une ombre à l'image */
+}
